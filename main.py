@@ -14,11 +14,11 @@ while True:
   if pick == str("r") and randomrps == str("s"):
     print("Rock crushes scissors... You WON!")
   elif randomrps == str("r") and pick == str("s"):
-    print("Scissors cuts paper... You Lost!")    
+    print("Rock crushes scissors... You Lost!")    
   elif pick == str("p") and randomrps == str("r"):
     print("Paper covers rock... You WON!")
   elif randomrps == str("p") and pick == str("r"):
-    print("Scissors cuts paper... You Lost!")
+    print("Paper covers rock... You Lost!")
   elif pick == str("s") and randomrps == str("p"):
     print("Scissors cuts paper... You WON!")
   elif randomrps == str("s") and pick == str("p"):
