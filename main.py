@@ -9,7 +9,6 @@ print("""To start the game enter correct letter.
 while True:
   rps = ["r", "p", "s"]
   randomrps = random.choice(rps)
-  randomrps = random.choice(rps)
   pick = input("Your pick: ").lower()
   if pick == str("r") and randomrps == str("s"):
     print("Rock crushes scissors... You WON!")
